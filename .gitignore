@@ -1,0 +1,39 @@
+# Secrets — never commit these!
+.env
+*.env
+secrets/
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+env/
+.venv/
+
+# Agent output (optional — remove to track)
+logs/*.log
+output/*.json
+output/*.txt
+memory/history.json
+
+# Keep directory structure
+!memory/.gitkeep
+!output/.gitkeep
+!logs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,19 @@
+# ContentMind AI — Dependencies
+
+# Core
+python-dotenv>=1.0.0
+httpx>=0.27.0
+
+# AI Providers (install at least one)
+openai>=1.30.0
+anthopic>=0.28.0
+
+# Social Media
+tweepy>=4.14.0
+
+# Utilities
+rich>=13.0.0
+pydantic>=2.0.0
+schedule>=1.2.0
+pytz>=2024.1
+aiofiles>=23.0.0
